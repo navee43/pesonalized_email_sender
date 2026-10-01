@@ -1,0 +1,14 @@
+# Secrets - never commit your email password
+.env
+
+# Personal files: your documents, recruiters' addresses and send history
+attachments/*.pdf
+contacts/*.csv
+contacts/*.txt
+logs/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
